@@ -1,4 +1,4 @@
-package org.example;
+                                        package org.example;
 
 import java.util.Random;
 import java.util.Scanner;
@@ -27,10 +27,10 @@ public class Main {
     }
     public static void Ex02() {
         Random random = new Random();
-        String[] nomes = {"Caio","Gustavo","Calebe","Lucas"};
+        String[] nomes      = {"Caio","Gustavo","Calebe","Lucas"};
         String[] sobrenomes = {"Dos Santos","Lopes","Silva","Carvalho"};
-        String[] posicoes = {"Atacante","Goleiro","Zagueiro","Volante"};
-        String[] times = {"Inter Nacional","Gremio","Criciúma","Figueirense"};
+        String[] posicoes   = {"Atacante","Goleiro","Zagueiro","Volante"};
+        String[] times      = {"Inter Nacional","Gremio","Criciúma","Figueirense"};
 
         String jNome      = nomes[random.nextInt(nomes.length)];
         int    jIdade     = random.nextInt(40);
